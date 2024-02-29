@@ -80,8 +80,8 @@ def chat_eli(query):
 
 st.title("Medical Help using Multimodal LLM")
 
-with st.expander("About this App"):
-    st.write("Upload an image to get a deep, strong analysis.")
+with st.expander("Disclaimer"):
+    st.write(" This AI tool is strictly meant for technology demonstration purposes, as such its accuracy and reliability could be limited, and thus it is not to be utilized for diagnosis, analysis, or treatment of any situation which requires professionally qualified expertise to resolve any particular need or concern.")
 
 uploaded_file = st.file_uploader(
     "Upload an Image", type=["jpg", "jpeg", "png"])
