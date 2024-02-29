@@ -81,7 +81,7 @@ def chat_eli(query):
 st.title("Medical Help using Multimodal LLM")
 
 with st.expander("About this App"):
-    st.write("Upload an image to get an analysis from GPT-4.")
+    st.write("Upload an image to get a deep, strong analysis.")
 
 uploaded_file = st.file_uploader(
     "Upload an Image", type=["jpg", "jpeg", "png"])
